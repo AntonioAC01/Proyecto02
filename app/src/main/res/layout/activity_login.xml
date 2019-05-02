@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+
+            app:srcCompat="@drawable/rdio"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="70dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+android:textSize="20dp"
+            android:paddingBottom="20dp"
+            android:text="Hi, Smith"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtloginsus"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Login susscesful"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:paddingTop="350dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtwelcome"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:padding="30dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
